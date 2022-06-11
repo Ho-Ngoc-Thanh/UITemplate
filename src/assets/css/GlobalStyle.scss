@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+  --main-color-bg: rgba(255, 255, 255, 1);
+  --main-primary: rgba(76, 73, 237, 1);
+  --main-disable: rgba(161, 160, 189, 1);
+  --main-width: 1150px;
+}
+html {
+  font-size: 62.5%;
+  background-color: rgba(244, 243, 250, 1);
+}
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  text-rendering: optimizeSpeed;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.card_container {
+  background-color: var(--main-color-bg);
+  border-radius: 6px;
+  width: 100%;
+}

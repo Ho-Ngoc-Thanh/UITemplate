@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+}
+
+.layout_left-menu {
+  position: relative;
+}
+.layout_page {
+  margin-left: 20px;
+  flex: 1;
+}
+
+@media (max-width: 991px) {
+  .layout_page {
+    margin: 0px;
+  }
+}
